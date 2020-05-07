@@ -99,4 +99,5 @@ PS1="[\d \t] \u@\h:\w\$ "
 export PS1
 export HISTTIMEFORMAT="%d/%m/%y %T "
 alias rec='script -aq ~/logs/term.log-$(date "+%Y%m%d-%H-%M")'
+sleep 10
 # vim:ts=4:sw=4
