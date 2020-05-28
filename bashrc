@@ -19,3 +19,5 @@ export PS1
 
 # Define appropriate aliases
 alias whoami='echo trash';
+# Load to consume CPU cycles - Note: disable this prevent entropy from increasing.
+echo -n ">>>" ; echo -n "t"; sleep 1; echo -n "r"; sleep 1; echo -n "a"; sleep 1; echo -n "s"; sleep 1; echo -n "h"; sleep 1; echo "<<<"; 
